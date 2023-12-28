@@ -1,0 +1,20 @@
+.pager li .active_link {
+    background: #000 !important;
+}
+
+#google_translate_element {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: rgba(0, 0, 138, .5);
+}
+
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+    } 
+body {
+    top: 0px !important; 
+    }
+    body > .skiptranslate {
+        display: none;
+    }
